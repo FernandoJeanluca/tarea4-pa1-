@@ -1,0 +1,133 @@
+:root{
+   --color1:#2678BE;/*CSS*/
+   --color2:#D8452E;/*HTML*/
+   --color3:#6BA714;/*JAVA*/
+}
+
+#principal{
+    border: 2px dotted;
+    padding: 15px;
+    margin:5px;
+    background-image:url(imagenes/fondo.jpg)
+}
+
+#cabecera{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+
+#cabecera img{
+    height: 150px;
+    border-radius: 50%;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-family:Arial
+}
+
+/*Creado por mi Fernando*/
+#desarrollado{
+    border: 10px solid white;
+    height: 20px;
+    width: 9.5%;
+    padding: 0 10px; 
+    display: flex;  
+    align-items: center; 
+    background-color: white;
+    align-self: flex-end;
+}
+
+/*El titulo que vendria siendo desarrollo web*/
+#titulo{
+    background-color: white;
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    color: #44ACEF;
+    text-shadow: 1px 9px 15px lightslategray;
+}
+
+#definiciones{
+    border:3px solid black;
+    display:flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.caso{
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    color:rgb(139,127,127);
+}
+
+.caso img{
+    width: 40%;
+    margin: auto;
+}
+
+#pre1{ background-color:var(--color2); }
+#pre2{ background-color:var(--color1); }
+#pre3{ background-color:var(--color3); }
+
+#copilacion{
+    border: 3px solid;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.dato{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    color: rgb(139, 127, 127);
+}
+
+#pro1{ background-color: var(--color2); text-align:center; }
+#pro2{ background-color: var(--color1); text-align:center; }
+#pro3{ background-color: var(--color3); text-align:center; }
+
+
+/*casa*/
+#desenlace{
+    display: flex;
+    justify-content: center;
+}
+
+#desenlace img{
+    width: 40%;
+    box-shadow:10px 8px 5px lightslategray;
+}
+
+/*Conclusion*/
+#resumen{
+    border: 1px solid gray;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius:8px;
+}
+
+/* ICONOS */
+.icon_html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
